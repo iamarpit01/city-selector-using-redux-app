@@ -1,0 +1,31 @@
+.places-wrap{
+    padding: 50px 0;
+    background-color: #8A2bE2;
+}
+
+.places__col{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding: 10px;
+    height: 100%;
+}
+.places__col .listitem{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.places__col-destination .listitem-delete{
+    background-color: #f7f7ff;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.places__col-destination .listitem-delete:last-child{
+    margin-bottom: 15px;
+}
+
+.places__col-destination .listitem-delete .listitem-delete-icon{
+    font-size: 12px;
+    color: #333333;
+    cursor: pointer;
+}
